@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/DailyJuniorDeveloper/static/js/main.1034e8c7.chunk.js",
-    "main.js.map": "/DailyJuniorDeveloper/static/js/main.1034e8c7.chunk.js.map",
+    "main.js": "/DailyJuniorDeveloper/static/js/main.19addd8f.chunk.js",
+    "main.js.map": "/DailyJuniorDeveloper/static/js/main.19addd8f.chunk.js.map",
     "runtime-main.js": "/DailyJuniorDeveloper/static/js/runtime-main.0a14541d.js",
     "runtime-main.js.map": "/DailyJuniorDeveloper/static/js/runtime-main.0a14541d.js.map",
-    "static/js/2.4cebf298.chunk.js": "/DailyJuniorDeveloper/static/js/2.4cebf298.chunk.js",
-    "static/js/2.4cebf298.chunk.js.map": "/DailyJuniorDeveloper/static/js/2.4cebf298.chunk.js.map",
+    "static/js/2.962321b1.chunk.js": "/DailyJuniorDeveloper/static/js/2.962321b1.chunk.js",
+    "static/js/2.962321b1.chunk.js.map": "/DailyJuniorDeveloper/static/js/2.962321b1.chunk.js.map",
     "index.html": "/DailyJuniorDeveloper/index.html",
-    "static/js/2.4cebf298.chunk.js.LICENSE.txt": "/DailyJuniorDeveloper/static/js/2.4cebf298.chunk.js.LICENSE.txt",
+    "static/js/2.962321b1.chunk.js.LICENSE.txt": "/DailyJuniorDeveloper/static/js/2.962321b1.chunk.js.LICENSE.txt",
     "static/media/Author.d394901c.jpg": "/DailyJuniorDeveloper/static/media/Author.d394901c.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.0a14541d.js",
-    "static/js/2.4cebf298.chunk.js",
-    "static/js/main.1034e8c7.chunk.js"
+    "static/js/2.962321b1.chunk.js",
+    "static/js/main.19addd8f.chunk.js"
   ]
 }
