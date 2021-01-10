@@ -10,9 +10,9 @@ export default function Home() {
       <Header />
       <Year date={2021} />
       <Activity
-        date="02/01/2021"
-        title="Daily"
-        description="Daily of a junior developer"
+        date="05/01/2021"
+        title="Node.js"
+        description="Introdução ao Node.Js"
       />
     </Container>
   );

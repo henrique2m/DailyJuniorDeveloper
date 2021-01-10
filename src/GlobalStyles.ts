@@ -6,6 +6,7 @@ export default createGlobalStyle`
   --color-background: #292929;
   --color-container: #FFFFFF;
   --text-small-color: #404040;
+  --color-border: #c4cdcd;
 }
 
 * {

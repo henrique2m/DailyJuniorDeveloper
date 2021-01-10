@@ -1,5 +1,6 @@
 import React from 'react';
 import { MdToday } from 'react-icons/md';
+import { Link } from 'react-router-dom';
 import { Container } from './styles';
 
 interface PropsActivity {
@@ -16,17 +17,19 @@ const Activity: React.FC<PropsActivity> = ({ date, title, description }) => {
           <strong>{date}</strong>
           <span></span>
           <div>
-            <aside>
-              <header>
-                <h3>{title}</h3>
-                <small> {description} </small>
-              </header>
+            <Link to="/article">
+              <aside>
+                <header>
+                  <h3>{title}</h3>
+                  <small> {description} </small>
+                </header>
 
-              <footer>
-                <MdToday />
-                <strong>{date}</strong>
-              </footer>
-            </aside>
+                <footer>
+                  <MdToday />
+                  <strong>{date}</strong>
+                </footer>
+              </aside>
+            </Link>
           </div>
         </div>
       </li>

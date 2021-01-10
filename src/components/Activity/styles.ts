@@ -2,7 +2,8 @@ import styled from 'styled-components';
 
 export const Container = styled.ul`
   display: flex;
-  width: 40.68rem;
+  width: 100%;
+  max-width: 40.68rem;
   min-width: 30rem;
   flex-direction: column;
   list-style: none;
@@ -45,14 +46,25 @@ export const Container = styled.ul`
   }
 
   li > div > div {
-    border-left: 1px solid #c4cdcd;
+    width: 50%;
+    border-left: 1px solid var(--color-border);
     padding-top: 10rem;
+  }
+
+  li > div > div a:link,
+  a:visited,
+  a:active {
+    text-decoration: none;
+    color: #000;
+  }
+
+  li > div > div a:hover {
+    color: var(--text-small-color);
   }
 
   li > div > div aside {
     background: var(--color-container);
-    width: 17.2rem;
-    height: 8.4rem;
+    min-height: 8.4rem;
     margin-left: 3rem;
     border-radius: 20px 20px 20px 0;
 
